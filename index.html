@@ -1,0 +1,907 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="icon" href="img/favicon.png" />
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		
+		<!-- 作成したファイル -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/nav_menu_style.css">
+		<link rel="stylesheet" href="css/profile.css">
+		<link rel="stylesheet" href="css/popup.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/sample_mysite.js"></script>
+		<title>takaA's profile page</title>
+	</head>
+	
+	<body>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+		<!--
+		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img src="img/top/topimage1.jpg" class="d-block w-100" alt="...">
+			  </div>
+			  <div class="carousel-item">
+				<img src="img/top/topimage2.png" class="d-block w-100" alt="...">
+			  </div>
+			  <div class="carousel-item">
+				<img src="img/top/topimage3.png" class="d-block w-100" alt="...">
+			  </div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		</div>
+		-->
+
+		<section id="menu-section">
+			<div class="container name-menu">
+				<div class="row">
+					<div class="col-md-8 mt-5 mb-5">
+						<img src="img/top/name.png" width="80%" alt="...">
+					</div>
+					<div class="col-md-4">
+						<nav class="menu">
+							<input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+							<label class="menu-open-button" for="menu-open">
+								<span class="lines line-1"></span>
+								<span class="lines line-2"></span>
+								<span class="lines line-3"></span>
+							</label>
+	 
+							<a href="#seni_test1" class="menu-item blue"><p class="menu_name">基本<br>情報</p></a>
+							<a href="#seni_test2" class="menu-item green"><p class="menu_name">特異な経験</p></a>
+							<a href="#seni_test3" class="menu-item red"><p class="menu_name">趣味</p></a>
+							<a href="#dream_and_vision-section" class="menu-item purple"><p class="menu_name">夢</p></a>
+							<a href="#dream_and_vision-section" class="menu-item orange"><p class="menu_name">宣言</p></a>
+							<a href="#seni_test6" class="menu-item lightblue"><p class="menu_name">呟き</p></a>
+						 </nav>
+						 <img class="js-animation" src="img/top/click.png" alt="" width="90%" style="transform: rotate(20deg);" id="click">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="profile-section">
+			<div class="container" id="seni_test1">
+				<div class="row">
+					<div class="col-md-4 mt-5 mb-5" id="profile_title">
+						<!--<h1 class="js-animation">基本情報</h1>-->
+						<img class="js-animation" src="img/pro/profile.png" alt="" width="100%">
+					</div>
+	
+					<div class="col-md-2">	
+						<div class="js-animation" id="parent">
+							<div class="front"><img src="img/pro/pro1.png" alt="" width="100%"></div>
+							<div class="flipped"><img src="img/pro/pro1_back.png" alt="" width="100%"></div>
+						</div>
+					</div>
+					<div class="col-md-2">	
+						<div class="js-animation" id="parent">
+							<div class="front"><img src="img/pro/pro2.png" alt="" width="100%"></div>
+							<div class="flipped"><img src="img/pro/pro2_back.png" alt="" width="100%"></div>
+						</div>
+					</div>
+					<div class="col-md-2">	
+						<div class="js-animation" id="parent">
+							<div class="front"><img src="img/pro/pro3.png" width="100%"></div>
+							<div class="flipped"><img src="img/pro/pro3_back.png" alt="" width="100%"></div>
+						</div>
+					</div>
+					<div class="col-md-2">	
+						<div class="js-animation" id="parent">
+							<div class="front"><img src="img/pro/pro4.png" alt="" width="100%"></div>
+							<div class="flipped"><img src="img/pro/pro4_back.png" alt="" width="100%"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4"  id=""></div>
+					<div class="col-md-8"  id="like_artist">
+						<div class="js-animation" id="parent_second">
+							<div class="front"><img src="img/pro/pro5.png" alt="" width="100%"></div>
+							<div class="flipped"><img src="img/pro/pro5_back.png" alt="" width="100%"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4"  id=""></div>
+					<div class="col-md-8"  id="myword">
+						<div class="js-animation" id="parent_second">
+							<div class="front"><img src="img/pro/pro6.png" alt="" width="100%"></div>
+							<div class="flipped"><img src="img/pro/pro6_back.png" alt="" width="100%"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 mt-5 js-animation" id="">
+						<img src="img/pro/proB1.png" alt="" width="30%" id="like_content1" onMouseOver="omOver(1);">
+						<img src="img/pro/proB2.png" alt="" width="30%" id="like_content2" onMouseOver="omOver(2);">
+						<img src="img/pro/proB3.png" alt="" width="30%" id="like_content3" onMouseOver="omOver(3);">
+						<img src="img/pro/proB4.png" alt="" width="30%" class="mb-5" id="like_content4" onMouseOver="omOver(4);">
+						<img src="img/pro/proB5.png" alt="" width="30%" class="mb-5" id="like_content5" onMouseOver="omOver(5);">
+						<img src="img/pro/proB6.png" alt="" width="30%" class="mb-5" id="like_content6" onMouseOver="omOver(6);">
+						<img src="img/pro/proB7.png" alt="" width="30%" class="mb-5" id="like_content7" onMouseOver="omOver(7);">
+						<img src="img/pro/proB8.png" alt="" width="30%" class="mb-5" id="like_content8" onMouseOver="omOver(8);">
+					</div>
+					<div class="ig_erea col-md-5 js-animation mb-5">
+						<!--<img src="img/ig.png" alt="" width="85%" id="ig_erea">-->
+						<img id="ig_content1" src="img/ig/ig_content1.png" alt="" width="70%">
+						<img src="img/like/like0.png" alt="" width="90%" id="ig_photo_def">
+						<img src="img/like/like0.png" alt="" width="90%" id="ig_photo">
+						<img id="ig_content2" src="img/ig/ig_content2.png" alt="" width="86%">
+						<table width="90%" id="ig_table">
+							<th>
+								<p id="ig_letter_def">
+								私の好きを紹介します！
+								<br><br>
+								日常を全力で生きている私にとって、これらの時間は何よりも大切です。
+								インドアかアウトドアなのかは、私もわかりません。
+								どっちも好きなんです。
+								個でも生きられちゃう感じが隠しきれていませんが、
+								コミュニケーションは大好きです。
+								実はとてもかまちょです！（究極のツンデレの開き直り）
+								</p>
+							</th>
+						</table>
+						<table width="96%" id="ig_table">
+							<th><p id="ig_letter"></p></th>
+						</table>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="experence-section">
+			<div class="container" id="seni_test2">
+				<div class="row">
+					<div class="col-md-4 mt-5 mb-5 js-animation">
+						<!--<h1>特異な経験</h1>-->
+						<img id="ex_title" src="img/experience/experience_title.png" alt="" width="130%">
+						<br>
+						<!--
+						<h4>プロジェクションマッピング</h4>
+						<button class="Button-style mt-1"><label class="open" for="pop-up">小学生200名を笑顔に</label></button>
+						<button class="Button-style mt-1"><label class="open" for="pop-up2">大学本館投影「テーマ：自然」</label></button>
+						<button class="Button-style mt-1"><label class="open" for="pop-up3">イルカと妖精さんの絵本作品</label></button>
+						<h4>VRパレード</h4>
+						<button class="Button-style mt-1 mb-3"><label class="open" for="pop-up4">インタラクティブVRパレードという<br>新感覚な体験を「うちパレ」</label></button>
+						<h4>DTM・音楽</h4>
+						<button class="Button-style mt- mb-3"><label class="open" for="pop-up5">有名曲 a cappella cover</label></button>
+						<button class="Button-style mt- mb-3"><label class="open" for="pop-up6">Beverly a cappella cover</label></button>
+						<button class="Button-style mt- mb-3"><label class="open" for="pop-up7">HERO/May J. cover</label></button>
+						<button class="Button-style mt- mb-3"><label class="open" for="pop-up8">夜中に突然弾き漁ったピアノ動画</label></button>
+						<button class="Button-style mt- mb-3"><label class="open" for="pop-up9">PM絵本作品 音楽DTM動画</label></button>
+						<h4>360度動画</h4>
+						<button class="Button-style mt- mb-3"><label class="open" for="pop-up10">うちパレ 360度movie</label></button>
+						<button class="Button-style mt- mb-3"><label class="open" for="pop-up11">のほほんとした時間 360度movie</label></button>
+						-->
+					</div>
+					<div class="col-md-8 mt-5 mb-5 js-animation">
+						<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner">
+							  <div class="carousel-item active">
+								<img src="img/experience/pm1.jpg" class="d-block w-100" alt="...">
+							  </div>
+							  <div class="carousel-item">
+								<img src="img/experience/pm2.jpg" class="d-block w-100" alt="...">
+							  </div>
+							  <div class="carousel-item">
+								<img src="img/experience/pm3.jpg" class="d-block w-100" alt="...">
+							  </div>
+							  <div class="carousel-item">
+								<img src="img/experience/vr1.jpg" class="d-block w-100" alt="...">
+							  </div>
+							  <div class="carousel-item">
+								<img src="img/experience/vr2.jpg" class="d-block w-100" alt="...">
+							  </div>
+							  <div class="carousel-item">
+								<img src="img/experience/dtm.png" class="d-block w-100" alt="...">
+							  </div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+							  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							  <span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+							  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							  <span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 mb-5 js-animation">
+						<h4>●プロジェクションマッピング</h4>
+						<button class="Button-style mt-3"><label class="open" for="pop-up">小学生200名を笑顔に</label></button>
+						<button class="Button-style mt-3"><label class="open" for="pop-up2">大学本館投影「テーマ：自然」</label></button>
+						<button class="Button-style mt-3"><label class="open" for="pop-up3">イルカと妖精さんの絵本作品</label></button>
+					</div>
+					<div class="col-md-3 mb-5 js-animation">
+						<h4>●VRパレード</h4>
+						<button class="Button-style mt-3"><label class="open" for="pop-up4">インタラクティブVRパレードという<br>新感覚な体験を「うちパレ」</label></button>
+					</div>
+					<div class="col-md-3 mb-5 js-animation">
+						<h4>●音楽（歌・DTM）</h4>
+						<button class="Button-style mt-3"><label class="open" for="pop-up5">有名曲 a cappella cover</label></button>
+						<button class="Button-style mt-3"><label class="open" for="pop-up6">Beverly a cappella cover</label></button>
+						<button class="Button-style mt-3"><label class="open" for="pop-up7">HERO/May J. cover</label></button>
+						<button class="Button-style mt-3"><label class="open" for="pop-up8">夜中に突然弾き漁ったピアノ動画</label></button>
+						<button class="Button-style mt-3"><label class="open" for="pop-up9">PM絵本作品 音楽DTM動画</label></button>
+					</div>
+					<div class="col-md-3 mb-5 js-animation">
+						<h4>●360度動画</h4>
+						<button class="Button-style mt-3"><label class="open" for="pop-up10">うちパレ 360度movie</label></button>
+						<button class="Button-style mt-3"><label class="open" for="pop-up11">のほほんとした時間 360度movie</label></button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<input type="checkbox" id="pop-up">
+		<div class="overlay">
+			<div class="window">
+				<label class="close" for="pop-up" id="stop1">×</label>
+				<!--<p class="text">PM作品①</p>-->
+				<div class="container popup_content">
+					<div class="row popup_content_h">
+						<h3>子供会共同企画 小学生200名を笑顔に<br>「テーマ：冒険」</h3>
+					</div>
+					<div class="row">
+						<iframe class="video" id="popup-YouTube-player" width="560" height="315" 
+						src="https://www.youtube.com/embed/CmUS-e70yKM?enablejsapi=1" 
+						title="YouTube video player" frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="row mt-3">
+						<p>
+							実に9ヶ月に及ぶ企画。<br>
+							子供たち・保護者・先生方に楽しんでいただきました。<br><br>
+
+							コロナで楽しいイベントがなくなってしまった子供たち、そして卒業生に楽しいイベントを。
+							そんな想いを私たちにぶつけってくださった子供会役員様に感謝申し上げます。
+							団体初の外部依頼。
+							4人から始まったこの団体も立て直しから2年でここまで大きくなりました。
+							後輩がリーダを務め、役員の方と連絡を取ったり、チームで会議している姿はとてもカッコよかったです。
+							そんな後輩の前では恥ずかしくて、暗闇の中必死に隠していましたが、
+							小学生が歓喜の声を上げた瞬間、そっと涙を流しました。
+							ここまで頑張って良かったって本気で思いました。
+							長年の夢が叶ったと心から思えた瞬間でした。
+							諸事情により私自身が制作を担当した部分のみの公開ではありますが、
+							皆様にも楽しんでいただけると幸いです。
+						</p>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<input type="checkbox" id="pop-up2">
+		<div class="overlay">
+			<div class="window">
+				<label class="close" for="pop-up2" id="stop2">×</label>
+				<!--<p class="text">PM作品②</p>-->
+				<div class="container popup_content">
+					<div class="row popup_content_h">
+						<h3>大学本館に投影「テーマ：自然」<br> 絶賛就活中ながらも諦めきれず楽曲制作を担う</h3>
+					</div>
+					<div class="row">
+						<iframe class="video" id="popup-YouTube-player2" width="560" height="315" 
+						src="https://www.youtube.com/embed/yqwuPB1dI2U?enablejsapi=1" 
+						title="YouTube video player" frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+					</div>
+					<div class="row mt-3">
+						<p>
+							「コロナ拡大につき、学内での活動は禁止です」<br>
+							そんな言葉をかけられながらも、チームで大きな作品を創ってみたいという想いが形となった作品。<br><br>
+
+							お世話になった先輩にとっても最後の機会。
+							絶対に失いたくなく、学生生活課と学科教授、管理課に想いを伝えました。
+							何とか体制が整ったものの時期が時期。
+							就活を妥協するつもりは全くありませんでしたが、
+							プロジェクションマッピング作品と自身の音楽作品を融合できるタイミングは今だと思い、
+							ちゃんとした楽曲制作は未経験ながらも
+							「出来ます。やります。何とか形にします。」と宣言し、挑戦した作品です。
+							絵コンテから映像をイメージして音にする。
+							自身の限界を感じ、苦しみながらも、最後までやり抜いた思い出の作品でもあります。
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<input type="checkbox" id="pop-up3">
+		<div class="overlay">
+			<div class="window">
+				<label class="close" for="pop-up3" id="stop3">×</label>
+				<!--<p class="text">PM作品③</p>-->
+				<div class="container popup_content">
+					<div class="row popup_content_h">
+						<h3>イルカと妖精さんの絵本作品 <br> ~Miracle of Forest Floating in The Sea~</h3>
+					</div>
+					<div class="row">
+						<iframe class="video" id="popup-YouTube-player3" width="560" height="315" 
+						src="https://www.youtube.com/embed/skSCvXecQ9I?enablejsapi=1" 
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="row mt-3">
+						<p>
+							この作品は既存メンバーの3人で作りました。
+							「「ふたり」ならどうな困難な道も乗り越えられる」がテーマとなったこの作品は、
+							今のコロナ渦に生きる皆様に伝えたいことがつまっています。
+							
+							泳ぐのが苦手なイルカが嵐によって群れと離れ離れになってしまうところから始まります。
+							見知らぬ地で出会った妖精さんと一緒に笑って、一緒に困難を乗り越えていく。そんなストーリーです。
+
+							この作品の全ての楽曲はこの作品のために私が創ったオリジナル曲です。
+							絵コンテと睨めっこしながら4ヶ月かけて作りました。
+							投影物作製、映像制作、楽曲制作の3足のわらじ。
+							苦労した分とても愛がつまっています。<br><br>
+
+							劇中歌のTogetherの歌詞。
+							You are not alone. <br>
+							皆様の心が温かくなることを願います。
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<input type="checkbox" id="pop-up4">
+		<div class="overlay">
+			<div class="window">
+				<label class="close" for="pop-up4" id="stop4">×</label>
+				<!--<p class="text">VRパレード</p>-->
+				<div class="container popup_content">
+					<div class="row popup_content_h">
+						<h3>”流れている映像をただ観る<br>360度パレード動画の時代に終止符を打ちたい”<br>インタラクティブVRパレードという新感覚な体験を</h3>
+					</div>
+					<div class="row">
+						<iframe class="video" id="popup-YouTube-player4" width="560" height="315"
+						src="https://www.youtube.com/embed/Y9ZXztkg-VQ?enablejsapi=1" 
+						title="YouTube video player" frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="row mt-3">
+						<p>
+							「つくる」を通じて、誰もがヒーローになれる開発コンテスト、
+							”ヒーローズリーグ2021”にてルーキーヒーロー賞をいただいた作品。
+							自身のモノづくりが、初めて世の中の評価に繋がった、
+							私にとってとても大切な作品です。
+							モノづくりをしている人のコミュニティーの中で評価されたというのも
+							自身の中で今を頑張る糧となっています。
+							このようなVRパレードはまだ世界中探してもないと思います。
+							うちパレがスマホVRパレードのプロトタイプとなり、
+							いつか羽ばたいてほしい。
+							私より優秀な人の目に届いてほしい。
+							そう、強く思うので、自身の身をかけて創ったプロトタイプを
+							「伝える」という残された試練を続けています。
+						</p>
+						<a id="uchipare_url" href="https://protopedia.net/prototype/2614" target="_blank">うちパレ作品紹介ページ</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<input type="checkbox" id="pop-up5">
+		<div class="overlay">
+			<div class="window">
+				<label class="close" for="pop-up5" id="stop5">×</label>
+				<!--<p class="text">音楽・DTM①</p>-->
+				<div class="container popup_content">
+					<div class="row popup_content_h">
+						<h3>有名曲　a cappella cover</h3>
+					</div>
+					<div class="row">
+						<iframe class="video" id="popup-YouTube-player5" width="560" height="315" 
+						src="https://www.youtube.com/embed/DbBAqbv9WI8?enablejsapi=1" 
+						title="YouTube video player" frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="row mt-3">
+						<p>
+							2022/03 <br>
+							久々のa cappella cover<br><br>
+
+							歌いたい曲を歌いたいタイミングで歌った動画。
+							衝動に任せたので若干荒さが目立ちますが、それよりも何かに解放されて歌っているのを自身でも感じられて気に入っています。
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<input type="checkbox" id="pop-up6">
+		<div class="overlay">
+			<div class="window">
+				<label class="close" for="pop-up6" id="stop6">×</label>
+				<!--<p class="text">音楽・DTM②</p>-->
+				<div class="container popup_content">
+					<div class="row popup_content_h">
+						<h3>Beverly　a cappella cover</h3>
+					</div>
+					<div class="row">
+						<iframe class="video" id="popup-YouTube-player6" width="560" height="315" 
+						src="https://www.youtube.com/embed/3QH2mrkT5Io?enablejsapi=1" 
+						title="YouTube video player" frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="row mt-3">
+						<p>
+							2019/02 <br>
+							推しであり、憧れの存在であるBeverlyの楽曲のa cappella cover<br><br>
+
+							こういうハイトーンの楽曲を歌うのが好きで、普段このような楽曲を聞いていることも多いです。
+							本人にも届いた思い出の作品です。自身の"歌ってみた"で一番伸びた動画だと思います。
+							(アカウントは既に削除済み)
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<input type="checkbox" id="pop-up7">
+		<div class="overlay">
+			<div class="window">
+				<label class="close" for="pop-up7" id="stop7">×</label>
+				<!--<p class="text">音楽・DTM③</p>-->
+				<div class="container popup_content">
+					<div class="row popup_content_h">
+						<h3>自身の20歳の誕生日に投稿した動画<br>HERO/May J. cover</h3>
+					</div>
+					<div class="row">
+						<iframe class="video" id="popup-YouTube-player7" width="560" height="315"
+						src="https://www.youtube.com/embed/jyBR-t2BJUs?enablejsapi=1" 
+						title="YouTube video player" frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="row mt-3">
+						<p>
+							2019/01 <br>
+							推しであり、憧れの存在であるMay J.の楽曲cover<br><br>
+
+							May J.は私にとってかなり特別な存在で、彼女の生き方や考え方に影響されて思春期を過ごしてきました。
+							そんな彼女が歌うこの楽曲は、当時の私にばっちり当てはまりました。
+							May J.は私にとってHEROです。
+							私はそんなに強い人間ではないのかもしれません。
+							だけど、彼女の存在が私を強くいさせてくれているように思います。
+							これからも一生愛し、尊敬し続ける。
+							そんな想いも込められています。
+							このcoverのピアノ伴奏は自分で作り、自分で演奏しました。
+							少し記憶が曖昧ですが、ここまでしっかりと作ったのは初めてだったように思います。
+							好きの力って偉大だな、とつくづく思います。
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<input type="checkbox" id="pop-up8">
+		<div class="overlay">
+			<div class="window">
+				<label class="close" for="pop-up8" id="stop8">×</label>
+				<!--<p class="text">音楽・DTM④</p>-->
+				<div class="container popup_content">
+					<div class="row popup_content_h">
+						<h3>夜中に突然弾き漁ったピアノ動画<br>誰に聞かせるでもなく自分の心を自分で知る時間</h3>
+					</div>
+					<div class="row">
+						<iframe class="video" id="popup-YouTube-player8" width="560" height="315"
+						src="https://www.youtube.com/embed/ZZKKhkr6XjI?enablejsapi=1" 
+						title="YouTube video player" frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="row mt-3">
+						<p>
+							2021/07 <br>
+							高頻度で出てくるものでもない抽象的な表現の瞬間。<br><br>
+
+							自身の音楽アウトプットが怖くなり記録のない動画です。
+							当時何を思っていたのか、記録に残っていないのはとても悲しい。
+
+							当時はおそらく就活が終わり、うちパレの進度の遅れに焦りながらも頑張っていた時期。
+							だから「こうしたいんだ！！」という気持ちが音数に表れていると感じます。
+							ただ、私にしては低め、暗めの音を選んでいる箇所があるので、
+							強い不安感とやらなければならないという圧迫感を持っていた気がします。
+							最終的には平和に終わっているので、少しは道が見えていたのかな。
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<input type="checkbox" id="pop-up9">
+		<div class="overlay">
+			<div class="window">
+				<label class="close" for="pop-up9" id="stop9">×</label>
+				<!--<p class="text">音楽・DTM⑤</p>-->
+
+				<div class="container popup_content">
+					<div class="row popup_content_h">
+						<h3>イルカと妖精さんのプロジェクションマッピング絵本作品<br>音楽DTM動画</h3>
+					</div>
+					<div class="row">
+						<iframe class="video" id="popup-YouTube-player9" width="560" height="315"
+						src="https://www.youtube.com/embed/aJc9Pw0vKo8?enablejsapi=1" 
+						title="YouTube video player" frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="row mt-3">
+						<p>
+							8分の超大作のDTM動画。<br>
+							プロジェクションマッピングの絵コンテを
+							睨めっこしながら4ヶ月かけて作りました。<br><br>
+
+							プロジェクションマッピング作品の音楽を創るのは2回目。
+							それでも最後までやり切れるか不安が付きまといました。
+							自身が高校生の時に室内学部に所属し、初心者ながらバイオリンを弾いていたこともあり
+							ストリングスの音色が多く使われているのが特徴です。
+
+							1回目の時よりもマスタリングが少しできるようになり
+							聞きやすくなっていると思います。
+							ぜひ、この楽曲が使われているプロジェクションマッピングの作品を見ていただきたいです。
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<input type="checkbox" id="pop-up10">
+		<div class="overlay">
+			<div class="window">
+				<label class="close" for="pop-up10" id="stop10">×</label>
+				<!--<p class="text">360度動画①</p>-->
+
+				<div class="container popup_content">
+					<div class="row popup_content_h">
+						<h3>うちパレ 360度movie</h3>
+					</div>
+					<div class="row">
+						<iframe class="video" id="popup-YouTube-player10" width="560" height="315"
+						src="https://www.youtube.com/embed/fyojsl-0dBw?enablejsapi=1" 
+						title="YouTube video player" frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="row mt-3">
+						<p>
+							うちパレの舞台であるテーマパークのテーマは「"自分らしさを表現できる場所"」。<br>
+							この世界を一周できるコンテンツです。<br><br>
+
+							アワー・グラス・プラザ→ノルディック・オールド・タウン→ブラウンストーン・バラ→モハバット・バーク→ヒワック・ホーリー・シティの順に回ります。
+							リリースの段階まで持ち込めておらず、うちパレ自体を体験していただくことは出来ませんが、
+							少しでもうちパレの世界観を知っていただきたく創ったコンテンツです。
+							お手持ちのスマートフォンで楽しんでいただくと、スマートフォンの動きに合わせて世界が動いたり、スマホVRとしても楽しんでいただけるので是非。
+							YouTubeで「うちパレ360度movie」と検索をかけると出てきます。
+						</p>
+					</div>
+					<a id="uchipare_url" href="https://protopedia.net/prototype/2614" target="_blank">うちパレ作品紹介ページ</a>
+				</div>
+			</div>
+		</div>
+		<input type="checkbox" id="pop-up11">
+		<div class="overlay">
+			<div class="window">
+				<label class="close" for="pop-up11" id="stop11">×</label>
+				<!--<p class="text">360度動画②</p>-->
+
+				<div class="container popup_content">
+					<div class="row popup_content_h">
+						<h3>のほほんとした時間 360度movie</h3>
+					</div>
+					<div class="row">
+						<iframe class="video" id="popup-YouTube-player11" width="560" height="315"
+						src="https://www.youtube.com/embed/5zgVxYY15rU?enablejsapi=1" 
+						title="YouTube video player" frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="row mt-3">
+						<p>
+							小学校の体育館に投影したプロジェクションマッピング作品で出てくる自然の世界に入っていただけるコンテンツです。
+							植物や動物、拘りにこだわって創った世界観をお楽しみください。
+							こちらもお手持ちのスマートフォンで楽しんでいただくと、
+							スマートフォンの動きに合わせて世界が動いたり、
+							スマホVRとしても楽しんでいただけるので是非。 
+							YouTubeで「のほほんとした時間 360度movie」と検索をかけると出てきます。
+
+						</p>
+					</div>
+					<a id="uchipare_url" href="https://www.youtube.com/embed/CmUS-e70yKM" target="_blank">体育館に投影した作品</a>
+				</div>
+			</div>
+		</div>
+
+		<section id="hobby-section">
+			<div class="container" id="seni_test3">
+				<div class="row">
+					<div class="col-md-8 mt-5 mb-5 js-animation">
+						<div id="carouselExampleFade" class="carousel slide carousel-fade mt-5" data-bs-ride="carousel">
+							<div class="carousel-inner mt-2">
+								<div class="carousel-item active">
+									<img src="img/hobby/hobby1.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="img/hobby/hobby2.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="img/hobby/hobby3.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="img/hobby/hobby4.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="img/hobby/hobby5.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="img/hobby/hobby6.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="img/hobby/hobby7.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="img/hobby/hobby8.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="img/hobby/hobby9.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="img/hobby/hobby10.jpg" class="d-block w-100" alt="...">
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+					<div class="col-md-4  mt-5 mb-5  js-animation">
+						<!--<h1 class="js-animation">趣味</h1>-->
+						<img id="hobby_img" src="img/hobby/hobby_img.png" alt="" width="100%">
+						<!--
+						<div id="hobby_title_letter">
+							<p>oshikatsu</p>
+							<div id="hobby_title_h"><h2>推し活</h2></div>
+						</div>
+						<table id="hobby_letter" width="55%">
+							<th>
+								<h6>
+									生き甲斐です。
+									<br><br>
+									アーティストとファンの熱量の交換が何よりも魅力だと感じています。
+									写真のサインたちは宝物です。
+									憧れ、尊敬できる存在がいるって本当に素敵なこと。
+									推しから垣間見える努力を見て、感じて、人生頑張っています。
+									推しから刺激を受けた後の私は無敵です。
+								</h6>
+							</th>
+						</table>
+						-->
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container" id="dream_and_vision-section">
+				<div class="row">
+					<div class="col-md-6  mt-5 mb-5 js-animation" id="dream-section" onclick="show_window(1)">
+						<br>
+						<h1>夢</h1>
+						<br>
+						<img src="img/dream/dream.png" alt="" width="70%">
+					</div>
+
+					<div class="col-md-6 mt-5 mb-5 js-animation" id="vision-section" onclick="show_window(2)">
+						<br>
+						<h1>宣言</h1>
+						<br>
+						<img src="img/vision/vision.png" alt="" width="70%">
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="mb-5" id="menu1" style="display:none;clear:both;">
+				<!--<img src="img/dream_menu.jpg" alt="" width="93.5%">-->
+
+				
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10">
+							<h1 id="dream_title">人が「笑顔」になるSPACEを創る</h1>
+							<h3 id="dream_sub_title" >Ⅰ. 物理的な「空間」<br><br>
+								Ⅱ. 自分が携わってできたモノが人に届き、<br>
+								&emsp;&ensp;その人がそのモノによって「笑顔」になった「空間」</h3>
+						</div>
+						<div class="col-md-2">
+							<img  id="dream_img1" src="img/dream/dream_img1.png" alt="" width="120%">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<img id="dream_img2" src="img/dream/dream_img2.png" alt="" width="137%">
+
+						</div>
+						<div class="col-md-4">
+							<p class="dream_letter1">
+								最近「本当の笑顔」を忘れてしまった人でも<br>
+								一瞬だけ「本当の笑顔」になれるような<br>
+								そんな空間、SPACEを創ることが私の夢です。<br><br>
+
+								高校2年生の時に<br>
+								シンデレラ城に映されるプロジェクションマッピング<br>
+								Once Upon a Timeを知りました。<br><br>
+
+								｢人の笑顔｣を引き出すようなSPACEを…<br>
+								そんな素敵なものを作ってみたい…<br>
+								という夢を持ちました。<br><br>
+
+								当時は本当に漠然とした夢でした。<br>
+								しかし大学生になってこの夢を本気で叶えようと決めました。<br><br>
+
+								エンタメもITも共に変化が激しく、<br>
+								常にインプットし続ける必要があり、苦しむことも多々ありました。
+							</p>
+						</div>
+						<div class="col-md-4">
+							<p class="dream_letter2">
+								またインプットした後にアウトプットとしてモノを形にする期間は<br>
+								さらにバイタリティが必要で<br>
+								「好き」という気持ちとは別に<br>
+								「絶対完成させる」という強い気持ちも必要でした。<br><br>
+
+								それでも頑張れるのは<br>
+								人の力になるモノを考えて実現させることが「好き」だから。<br><br>
+
+								私は、制作経験から途中で諦めず最後までやりきる力を得ました。<br>
+								今となっては今後何か壁にぶつかっても<br>
+								歯を食いしばりながら頑張れる自信となりました。<br><br>
+
+								この夢はこれからも永遠に叶え続けます。<br>
+								ここには書ききれないくらいの多くの<br>
+								大きな夢も小さな夢も一つずつ叶えていきます。<br><br>
+
+								私が創ったモノで1人でも多くの人が「笑顔」になれますように
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+			<div  class="mb-5" id="menu2" style="display:none;clear:both;">
+				<!--<img src="img/vision_menu.jpg" alt="" width="93.5%">-->
+				<div class="vision container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 id="vision_title">モノや経験だけでなく、<br>
+								その人自身の魅力で人に印象を残せる人になる</h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8">
+							<img id="koudoukihann" src="img/vision/vision_img1.png" alt="" width="80%">
+							<!---<h4 id="koudoukihann">好きを想いに　想いを行動に　行動の積み重ねから形に</h4>-->
+							<div id="koudoukihann_letter">
+								<p>✓ 自分の好きを大切にし、想いにする</p>
+								<p>✓ 想いをすぐに行動に移す</p>
+								<p>✓ 成功、失敗問わずに行動したことがいつか”形”になると信じ、行動し続ける</p>
+								<p>✓ 然るべきタイミングで”形”にし、コミュニティーに提示し続ける</p>
+							</div>
+							
+							<div id="saisyuu"><h4 class="mt-4" id="mokuhyou">最終目標</h4></div>
+							<h4 id="mokuhyou_letter">エンタメとITを組み合わせた、<br>
+								人の「笑顔」に繋がるようなモノ、人々が求めるモノを創る </h4>
+							<p id="vision_letter">社会人1年目は、がむしゃらに頑張り続け、目の前にある全てのことに興味を持ち、
+								その1つ1つに楽しさを見出しながら自分自身の成長に繋げていきたい。 
+								最初は右も左もわからず、性格上不安でいっぱいな日々が続くと思うが、
+								その中でも求められていることを正確に把握し、自分なりに精一杯頑張り、 
+								プラスで吸収できないことはないか自分に問い続け、日々勉強していくことを継続する。
+								わからないことは、一度自分でしっかり考えた後に有識者に尋ね、最善の仕事となるように意識をする。 
+								信頼され、仕事を任せてもらえる人材になる為に、真面目さと粘り強さという強みを生かしながら、
+								周りの方々と沢山コミュニケーションを取りたい。
+							</p>
+						</div>
+						<div class="col-md-3">
+							<img id="vision_img2" src="img/vision/vision_img2.png" alt="" width="190%">
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		
+		<section id="tubuyaki-section">
+			<div class="container" id="seni_test6">
+				<div class="row">
+					<div class="col-md-12  mt-5 mb-5">
+						<!--<h2></h2>-->
+						<div class="card-deck js-animation">
+							<div class="card" style="width: 18em;">
+								<img src="img/hobby/hobby1.jpg" class="card-img-top" alt="">
+								<div class="card-body">
+									<div class="column flex-direction:row">
+										<p class="card-text">
+											May J. Siler Lining Release Live<br><br>
+											パッケージという静的なアートがライブという動的なアートに変革した瞬間に立ち会えて幸せだった。
+											自身の心がどのようなものであっても、盛大に楽しみ、盛大に悲しむ。
+											そのような道、運命(さだめ)の道とちゃんと向きあい、その時できることを頑張って頑張って頑張って頑張ったから
+											このようなアート作品が生まれたように思う。
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="card" style="width: 18em;">
+								<img src="img/hobby/hobby2.jpg" class="card-img-top" alt="">
+								<div class="card-body">
+									<div class="column flex-direction:row">
+										<p class="card-text">
+											FAKY 1stALリリイベ<br><br>
+											りる、Mikako、Akinaが守って来たものが今、新しい形となり、現時点の最高の姿を作っている。
+											Hina、Takiが別フィールドで頑張ってFAKYに新しい風を吹き込んでいるように感じる。
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="card" style="width: 18em;">
+								<img src="img/hobby/hobby6.jpg" class="card-img-top" alt="">
+								<div class="card-body">
+									<div class="column flex-direction:row">
+										<p class="card-text">
+											鈴木瑛美子 1stAL「5sences」リリイベ<br><br>
+											ライブパフォーマンス力の塊という印象。歌が上手すぎる上に、楽しそうに歌う。
+											ステージパフォーマンスが良い。とても1stの感じではない。流石。
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="card" style="width: 18em;">
+								<img src="img/hobby/hobby7.jpg" class="card-img-top" alt="">
+								<div class="card-body">
+									<div class="column flex-direction:row">
+										<p class="card-text">
+											荒井麻珠 1stAL「声」リリイベ<br><br>
+											麻珠の透き通った声、綺麗なファルセットが引き出される楽曲が集まったALになる予感。
+											リリイベとはいえ、ピアノ伴奏付きという拘りも非常に素敵。
+											ソロ活動開始から3年の待望の作品。楽しみ。
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section  id="footer">
+			<div class="container mt-5">
+				<br>
+				<p>&copy:2022 takaA</p>
+				<br>
+			</div>
+		</section>
+	</body>
+</html>
+
+
+
+
+
+
+
