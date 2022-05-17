@@ -1,0 +1,287 @@
+body{
+	background-color:white;
+	/*
+	font-family:"HGS明朝B";
+	*/
+}
+
+#container_test{
+	background-color:red;
+}
+
+#row_test{
+	margin-top:100px;
+	background-color:blue;
+}
+
+#col1_test{
+	background-color:pink;
+}
+
+#col2_test{
+	background-color:green;
+}
+
+
+/* ####################################### */
+
+#col1_header{
+	/*background-color:pink;*/
+	z-index:1;
+}
+
+#col2_header{
+	/*background-color:green;*/
+	padding-top:7%;
+	padding-left:7%;
+}
+
+#col3_header{
+	/*background-color:yellow;*/
+}
+
+
+
+#menu-section{
+	background-color: #d4ebe1;
+}
+
+#profile-section{
+	background-color: #fadbe1;
+	/*background-image:linear-gradient(45deg, #a3b6de 25%, transparent 25%), linear-gradient(315deg, #a3b6de 25%, #fadbe1 25%);
+	background-position: 10px 0, 40px 0, 0 0, 0 0;
+	background-size: 40px 40px;
+	background-repeat: repeat;*/
+}
+
+.ig_erea{
+	background-color: white;
+}
+
+#experence-section{
+	background-color:#f6f7d0;
+	/*
+	background-image:linear-gradient(45deg, #d4ebe1 25%, transparent 25%), linear-gradient(315deg, #d4ebe1 25%, #f6f7d0 25%);
+	background-position: 10px 0, 30px 0, 0 0, 0 0;
+	background-size: 30px 30px;
+	background-repeat: repeat;
+	*/
+}
+
+#hobby-section{
+	background-color: #deeaf7;
+	/*
+	background-image:linear-gradient(45deg, #f5bdc8 25%, transparent 25%), linear-gradient(315deg, #f5bdc8 25%, #deeaf7 25%);
+	background-position: 10px 0, 30px 0, 0 0, 0 0;
+	background-size: 30px 30px;
+	background-repeat: repeat;
+	*/
+}
+
+#dream-section{
+	background-color: #fce2cc;
+	text-align: center;
+}
+
+#vision-section{
+	background-color: #d4ebe1;
+	text-align: center;
+}
+
+#tubuyaki-section{
+	/*background-color: #a3b6de;*/
+	background-image:linear-gradient(45deg, #f6f7d0 25%, transparent 25%), linear-gradient(315deg, #f6f7d0 25%, #a3b6de 25%);
+	background-position: 10px 0, 30px 0, 0 0, 0 0;
+	background-size: 30px 30px;
+	background-repeat: repeat;
+}
+
+.card-deck{
+	display: flex;
+}
+
+.card{
+	margin-left: 2%;
+}
+
+#footer{
+	text-align:center;
+	background-color: black;
+}
+#footer p{
+	text-align:center;
+	font-size:14px;
+	color:white;
+}
+
+h1{
+	padding:2%;
+	text-align: center;
+	background-color: white;
+}
+
+.js-animation {
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(150px);
+	transition: all 0.7s;
+}
+
+.js-animation.is-show {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0px);
+}
+
+.menu_name{
+	color: black;
+	padding-top: 15%;
+}
+
+.Button-style {
+	font-size: 18px;
+	font-weight: 900;
+	display: inline-block;
+	padding: 0.5em 1em 0.3em;
+	color: #ec7986;
+	border: none;
+	border-radius: 5px;
+	background-color: #fadbe1;
+	background-size: 10px 10px;
+	background-image: radial-gradient(white 15%, transparent 20%),
+	  radial-gradient(white 15%, transparent 20%);
+	background-position: 0 0, 15px 15px;
+}
+
+#ex_title{
+	margin-top: -10%;
+	margin-left: -20%;
+}
+
+#hobby_img{
+	margin-top: -15%;
+	margin-left: 0%;
+}
+
+#hobby_title_letter{
+	color: #6588d4;
+	position: relative;
+	margin-left: 47%;
+	margin-top: -85%;
+}
+
+#hobby_title_h{
+	position: relative;
+	margin-top: -6%;
+	margin-left: -4%;
+}
+
+#hobby_letter{
+	color: #6588d4;
+	position: relative;
+	margin-top: 10%;
+	margin-left: 17%;
+}
+
+#menu1{
+	margin-top: -1%;
+	padding-left: 6.3%;
+}
+#menu2{
+	margin-top: -3%;
+}
+
+/*
+#menu2{
+	background-color: black;
+	width: 89.2%;
+	margin-left: 5.5%;
+}
+*/
+
+#dream_title{
+	margin-top: 5%;
+	font-size: 370%;
+	margin-left: -12%;
+}
+
+#dream_sub_title{
+	font-size: 150%;
+	margin-left: 28%;
+}
+
+#dream_img1{
+	position: relative;
+	margin-left: -80%;
+}
+
+#dream_img2{
+	position: relative;
+	margin-top: -10%;
+	margin-left: -27%;
+}
+
+.dream_letter1{
+	font-size:85%;
+	margin-top: 5%;
+	margin-left: -10%;
+}
+.dream_letter2{
+	font-size:85%;
+	margin-top: 5%;
+	margin-left: -25%;
+}
+.vision{
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#vision_title{
+	background-color: black;
+	text-align: left;
+	font-size: 325%;
+}
+#koudoukihann{
+	text-align: left;
+	margin-left: -10%;
+}
+#koudoukihann_letter{
+	text-align: left;
+	margin-top: 5%;
+	margin-left: 7%;
+}
+
+#saisyuu{
+	text-align: left;
+	padding-left: 7%;
+}
+
+#mokuhyou{
+	background-color: white;
+	display: inline-block;
+	padding-top: 0.6%;
+	padding-bottom: 0.6%;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: black;
+}
+
+#mokuhyou_letter{
+	text-align: left;
+	padding-left: 7%;
+	font-style: italic;
+	text-decoration-line: underline;
+	
+}
+
+#vision_letter{
+	text-align: left;
+	padding-top: 2%;
+	padding-left: 7%;
+}
+
+#vision_img2{
+	margin-top: 10%;
+	margin-left: -40%;
+}
